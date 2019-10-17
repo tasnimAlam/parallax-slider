@@ -1,0 +1,88 @@
+<html>
+	<!-- style here -->
+	<link rel="stylesheet" href="style.css" />
+
+	<div id="app">
+		<div class="slider" aria-labelledby="slider-heading__example-slider">
+			<ul class="slider__wrapper" style="transform: translateX(0%);">
+				<h3 id="slider-heading__example-slider" class="visuallyhidden">
+					Example Slider
+				</h3>
+				<li class="slide slide--current" style="--x:0; --y:0;">
+					<div class="slide__image-wrapper">
+						<img
+							class="slide__image"
+							alt="New Fashion Apparel"
+							src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg"
+							style="opacity: 1;"
+						/>
+					</div>
+					<article class="slide__content">
+						<h2 class="slide__headline">New Fashion Apparel</h2>
+						<button class="slide__action btn">Shop now</button>
+					</article>
+				</li>
+				<li class="slide slide--next" style="--x:-148.281; --y:-160;">
+					<div class="slide__image-wrapper">
+						<img
+							class="slide__image"
+							alt="In The Wilderness"
+							src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg"
+							style="opacity: 1;"
+						/>
+					</div>
+					<article class="slide__content">
+						<h2 class="slide__headline">In The Wilderness</h2>
+						<button class="slide__action btn">Book travel</button>
+					</article>
+				</li>
+				<li class="slide" style="--x:0; --y:0;">
+					<div class="slide__image-wrapper">
+						<img
+							class="slide__image"
+							alt="For Your Current Mood"
+							src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg"
+							style="opacity: 1;"
+						/>
+					</div>
+					<article class="slide__content">
+						<h2 class="slide__headline">For Your Current Mood</h2>
+						<button class="slide__action btn">Listen</button>
+					</article>
+				</li>
+				<li class="slide" style="--x:0; --y:0;">
+					<div class="slide__image-wrapper">
+						<img
+							class="slide__image"
+							alt="Focus On The Writing"
+							src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg"
+							style="opacity: 1;"
+						/>
+					</div>
+					<article class="slide__content">
+						<h2 class="slide__headline">Focus On The Writing</h2>
+						<button class="slide__action btn">Get Focused</button>
+					</article>
+				</li>
+			</ul>
+			<div class="slider__controls">
+				<button class="btn btn--previous" title="Go to previous slide">
+					<svg class="icon" viewBox="0 0 24 24">
+						<path
+							d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+						></path>
+					</svg></button
+				><button class="btn btn--next" title="Go to next slide">
+					<svg class="icon" viewBox="0 0 24 24">
+						<path
+							d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+						></path>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- script here -->
+	<script src="main.js"></script>
+</html>
